@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 10vh;
+    background-color: yellow;
+}
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.card {
+    min-width: 350px;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.difficulty {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1em;
+}
+.btn {
+    padding: 1em 1.7em;
+}
+footer {
+    height: 10vh;
+    background-color: red;
+}
